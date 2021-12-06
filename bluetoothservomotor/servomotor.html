@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bluetooth Servomotor Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icons8-bluetooth-48.png" type="x-icon">
+    <script
+      src="https://kit.fontawesome.com/e389e9676a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
+      <div class="container">
+        <a href="#" class="navbar-brand">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">back</a>
+            </li>
+           
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<nav class="p-5 m-5 ">
+<div class="container">
+    <p class="text-sm-start text-dark">
+        RC servo motors operate on the same principle. It contains a small DC motor that is connected to the output shaft via gears. The 
+  output shaft drives the servo arm and is also connected to the potentiometer (Poti). The 
+  potentiometer provides position feedback to the servo control unit and the current position of the motor is compared to the target position. In response to the 
+ error, the controller corrects the actual position of the motor to correspond to the target position. The 
+ servomotor is controlled by transmitting a series of pulses over the signal line. The frequency of the control signal should be 50Hz or a pulse should be generated every 20ms. The pulse width  determines the angular position of the servo, and this type of servo can usually rotate 180 degrees. 
+ Control cable is used to transmit the angle. The angle is determined by the duration of the pulse  applied to the control line. This is known as pulse code modulation. The servo expects to see the pulse every 20 milliseconds (0.02 seconds). The length of the pulse determines how much the motor rotates. For example, a 1.5ms pulse causes the engine to rotate to a 90 degree position (often referred to as the neutral position). If the pulse is less than 1.5 ms, the motor will bring the shaft closer to 0 degrees. If the pulse is longer than 1.5 ms, the shaft will rotate close to 180 degrees.
+
+    </p>
+    <div class="container img-fluid text-center"> 
+    <img src="MitBluetoothservoMotor/1.JPG" alt="">
+    <img src="MitBluetoothservoMotor/2.JPG" alt="">
+    <img src="MitBluetoothservoMotor/3.JPG" alt="">
+    <img src="MitBluetoothservoMotor/4.JPG" alt="">
+    <img src="MitBluetoothservoMotor/5.png" alt="">
+    </div>
+    
+
+</div>
+</nav>
+
+<div class="container p-3 text-center">
+    <a href="https://github.com/Z18R/BluetoothServomotor">Get Code in Github</a>
+</div>
+
+
+
+
+    
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
